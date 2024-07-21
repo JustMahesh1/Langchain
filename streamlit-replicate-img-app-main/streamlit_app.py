@@ -175,10 +175,10 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
                 print(e)
                 st.error(f'Encountered an error: {e}', icon="🚨")
 
-    # If not submitted, chill here 🍹
+"""    # If not submitted, chill here 🍹
     else:
         pass
-"""
+
     # Gallery display for inspo
     with gallery_placeholder.container():
         img = image_select(
