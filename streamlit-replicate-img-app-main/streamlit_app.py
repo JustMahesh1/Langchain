@@ -69,13 +69,13 @@ def configure_sidebar() -> None:
         st.markdown(
             """
             ---
-            ":orange[**Follow me on :**]  \n"
+            Follow me on :
 
-            Instagram → [Just Mahesh](https://www.instagram.com/just_mahesh_75),unsafe_allow_html=True
+            Instagram → [Just Mahesh](https://www.instagram.com/just_mahesh_75)
 
-            ":orange[**Listen Here :**]  \n"
+            Listen Here :
 
-            Music →   [Music Here](https://just-mahesh1.web.app),unsafe_allow_html=True
+            Music →   [Music Here](https://just-mahesh1.web.app)
 
             """
         )
