@@ -65,13 +65,7 @@ def configure_sidebar() -> None:
             submitted = st.form_submit_button(
                 "Submit", type="primary", use_container_width=True)
 
-        # Credits and resources
-        st.divider()
-        st.markdown(
-            ":orange[**Resources:**]  \n"
-            f"<img src='{replicate_logo}' style='height: 1em'> [{replicate_text}]({replicate_link})",
-            unsafe_allow_html=True
-        )
+       
         st.markdown(
             """
             ---
@@ -84,6 +78,17 @@ def configure_sidebar() -> None:
             Music →   [Music Here](https://just-mahesh1.web.app)
 
             """
+        )
+
+
+
+
+       # Credits and resources
+        st.divider()
+        st.markdown(
+            ":orange[**Resources:**]  \n"
+            f"<img src='{replicate_logo}' style='height: 1em'> [{replicate_text}]({replicate_link})",
+            unsafe_allow_html=True
         )
 
         return submitted, width, height, num_outputs, scheduler, num_inference_steps, guidance_scale, prompt_strength, refine, high_noise_frac, prompt, negative_prompt
