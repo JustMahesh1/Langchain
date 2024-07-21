@@ -178,7 +178,7 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
     # If not submitted, chill here 🍹
     else:
         pass
-
+'''
     # Gallery display for inspo
     with gallery_placeholder.container():
         img = image_select(
@@ -198,7 +198,7 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
                       ],
             use_container_width=True
         )
-
+'''
 
 def main():
     """
