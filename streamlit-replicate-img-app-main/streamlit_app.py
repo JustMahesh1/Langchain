@@ -36,7 +36,6 @@ def configure_sidebar() -> None:
     """
     with st.sidebar:
         with st.form("my_form"):
-            #st.info("**Yo fam! Start here ↓**", icon="👋🏾")
             with st.expander(":rainbow[**Customize your output here**]"):
                 # Advanced Settings (for the curious minds!)
                 width = st.number_input("Width of output image", value=1024)
@@ -57,7 +56,7 @@ def configure_sidebar() -> None:
                     "Fraction of noise to use for `expert_ensemble_refiner`", value=0.8, max_value=1.0, step=0.1)
             prompt = st.text_area(
                 ":orange[**Enter prompt: **]",
-                value="Unicorn Danicing in the clouds, cinematic, dramatic")
+                value="A serene forest clearing with a mystical, glowing portal in the center")
             negative_prompt = st.text_area(":orange[**Something you don't want in image? 🙅🏽‍♂️**]",
                                            value="the absolute worst quality, distorted features",
                                            help="This is a negative prompt, basically type what you don't want to see in the generated image")
@@ -78,9 +77,11 @@ def configure_sidebar() -> None:
             ---
             Follow me on:
 
-            # 𝕏 → [](https://twitter.com/tonykipkemboi)
-
             Instagram → [Just Mahesh](https://www.instagram.com/just_mahesh_75)
+
+            Listen on :
+
+            Music →   [Music Here](https://www.just-mahesh1.web.app)
 
             """
         )
