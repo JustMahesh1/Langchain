@@ -109,9 +109,9 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
         negative_prompt (str): Text prompt for elements to avoid in the image.
     """
     if submitted:
-        with st.status('👩🏾‍🍳 Whipping up your words into art...', expanded=True) as status:
-            st.write("⚙️ Model initiated")
-            st.write("🙆‍♀️ Stand up and strecth in the meantime")
+        with st.status('Loading up the awesomeness, please wait a sec...', expanded=True) as status:
+            st.write("Please hold on, magic is happening!")
+            st.write("The wait will be worth it, almost done!")
             try:
                 # Only call the API if the "Submit" button was pressed
                 if submitted:
@@ -135,7 +135,7 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
                         )
                         if output:
                             st.toast(
-                                'Your image has been generated!', icon='😍')
+                                'Your image has been generated!')
                             # Save generated image to session state
                             st.session_state.generated_image = output
 
