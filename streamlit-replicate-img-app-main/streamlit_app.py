@@ -81,7 +81,7 @@ def configure_sidebar() -> None:
 
             Listen on :
 
-            Music →   [Music Here](https://www.just-mahesh1.web.app)
+            Music →   [Music Here](https://just-mahesh1.web.app)
 
             """
         )
