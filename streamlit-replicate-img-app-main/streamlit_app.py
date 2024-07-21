@@ -186,7 +186,7 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
             images=[
                 "gallery/farmer_sunset.png", "gallery/astro_on_unicorn.png",
                 "gallery/friends.png", "gallery/wizard.png", "gallery/puppy.png",
-                "gallery/cheetah.png", "gallery/viking.png",
+                "https://github.com/JustMahesh1/Langchain/blob/main/streamlit-replicate-img-app-main/gallery/cheetah.png", "gallery/viking.png",
             ],
             captions=["A farmer tilling a farm with a tractor during sunset, cinematic, dramatic",
                       "An astronaut riding a rainbow unicorn, cinematic, dramatic",
