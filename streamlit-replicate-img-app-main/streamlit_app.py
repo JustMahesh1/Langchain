@@ -71,11 +71,11 @@ def configure_sidebar() -> None:
             ---
             ":orange[**Follow me on :**]  \n"
 
-            Instagram → [Just Mahesh](https://www.instagram.com/just_mahesh_75)
+            Instagram → [Just Mahesh](https://www.instagram.com/just_mahesh_75),unsafe_allow_html=True
 
             ":orange[**Listen Here :**]  \n"
 
-            Music →   [Music Here](https://just-mahesh1.web.app)
+            Music →   [Music Here](https://just-mahesh1.web.app),unsafe_allow_html=True
 
             """
         )
